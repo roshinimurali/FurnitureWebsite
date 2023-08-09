@@ -1,0 +1,208 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+.btn {
+  background-color: #ebd14f;
+  margin-left: 8rem;
+  margin-top: 2rem;
+  box-shadow: -1px 12px 25px 3px rgba(100, 100, 90, 0.09);
+}
+.navbar-toggler-icon {
+  border: #467250;
+}
+button:hover {
+  background-color: #467250;
+  border: 3px solid #467250;
+}
+.card-body {
+  margin-left: 10rem;
+  margin-top: 10rem;
+}
+.card {
+  border: none;
+  background: linear-gradient(#a2b89e, white);
+}
+h1 {
+  font-size: 10rem;
+  color: #467250;
+}
+h3 {
+  color: #467250;
+  text-align: center;
+  margin-top: 8rem;
+  font-family: bolder;
+  font-weight: bold;
+}
+.p2 {
+  font-size: 1rem;
+  text-align: center;
+  margin: 0 auto;
+  color: gray;
+}
+.p1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  color: gray;
+}
+.card4 {
+  box-shadow: -1px 12px 25px 3px rgba(77, 76, 45, 0.09);
+  border-radius: 0% 0% 10 10;
+}
+.card-img-top {
+  width: 13rem;
+  height: 200px;
+  border-radius: 10% 10% 0 0;
+}
+
+.cards {
+  margin-top: 5rem;
+}
+
+.card-img-top:hover {
+  opacity: 0.5;
+}
+.boxex {
+  margin-top: 5rem;
+}
+.box {
+  width: 300px;
+  height: 400px;
+}
+.box1 {
+  background-color: #f7f7f7;
+}
+
+.box2 {
+  background-color: rgb(235, 226, 152);
+}
+
+.box3 {
+  background-color: #f7f7f7;
+}
+.box1:hover {
+  transform: scalex(1.1);
+}
+.box2:hover:hover {
+  transform: scalex(1.1);
+}
+.box3:hover:hover {
+  transform: scalex(1.1);
+}
+
+.im {
+  width: 100px;
+  height: 100px;
+  margin-left: 5rem;
+}
+i {
+  color: gray;
+  margin-left: 6rem;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 5rem;
+  height: 30vh;
+  background-color: #647450;
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  line-height: 3rem;
+}
+span1 {
+  color: black;
+  width: 15px;
+  margin-top: 3rem;
+  background-color: #bed6b9;
+}
+.arrow {
+  width: 5rem;
+  color: white;
+  text-decoration: none;
+}
+@media screen and (max-width: 500px) {
+  .card-body {
+    margin-top: 5rem;
+    margin-left: 5rem;
+  }
+  .blob {
+    width: 300px;
+    margin-left: 1rem;
+  }
+  .btn {
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 1380px) {
+  h1 {
+    font-size: 8rem;
+  }
+  .p1 {
+    font-size: 2rem;
+  }
+  .card-body {
+    margin-top: 3rem;
+  }
+  .btn {
+    margin-left: 6rem;
+  }
+}
+@media screen and (max-width: 710px) {
+  h1 {
+    font-size: 6rem;
+    margin-left: 1rem;
+  }
+  .p1 {
+    font-size: 2rem;
+  }
+  .card-body {
+    margin-top: 3rem;
+    margin-left: 3rem;
+  }
+  .btn {
+    margin-left: 15rem;
+  }
+  .blob {
+    margin-left: 10rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 4rem;
+    margin-left: 1rem;
+  }
+  .p1 {
+    font-size: 1rem;
+  }
+  .card-body {
+    margin-top: 4rem;
+    margin-left: 3rem;
+  }
+  .blob {
+    width: 300px;
+    margin-left: 1.5rem;
+  }
+  .btn {
+    margin-left: 5rem;
+  }
+}
+.see:hover {
+  color: #647450;
+}
+.nav-link:hover {
+  color: #467250;
+}
+.formcontainer {
+  background-color: #bdd3a3;
+}
+.con {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.navbar-brand {
+  color: #3b794a;
+  font-weight: bolder;
+}

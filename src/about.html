@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link rel="stylesheet" href="../src/style/main.scss" />
+
+    <!-- Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/ddabbe50a1.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Style -->
+    <style>
+      .car {
+        opacity: 0.6;
+        height: 50vh;
+        position: absolute;
+      }
+      .box {
+        width: 600px;
+        height: 600px;
+        position: relative;
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+      .text {
+        padding: 3rem;
+        line-height: 2rem;
+        color: gray;
+      }
+      @media screen and (max-width: 700px) {
+        .new {
+          display: none;
+        }
+        .car {
+          position: static;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+          <div class="container-fluid d-flex justify-content-between">
+             <div>
+              <img src="./images/armchair.png" style="width:40px"alt="">
+            <a class="navbar-brand navtext p-2" href="#">Home360°</a></div> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+              <div class="navbar-nav ">
+                <a class="nav-link active " aria-current="page" href="./index.html">Home</a>
+                <a class="nav-link " href="./about.html">About Us</a>
+                <a class="nav-link " href="./product.html">Products</a>
+                <a class="nav-link  " href="./contact.html">Contact</a>
+              </div>
+            </div>
+          </div>
+      
+        </nav>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="500">
+              <img src="./images/couch1.jpg" class="d-block car w-100 "style="height:900px;" alt="...">
+            <div class="new"><div class="box d-flex justify-content-center"> <p class="text">mpore vitaeiciis error itaque veritatis quis maiores mollitia, beatae corrupti ut libero ipsum dolorum esse. amet consectetur adipisicing elit. Repellat cumque aperiam eos libero, soluta harum illo. Impedit atque eveniet illum? Perspiciatis inventore illo porro ex eius impedit itaque dolorem. Dicta, voluptates harum optio numquam molestias voluptate velit consequuntur unde, libero natus aut similique officiis modi quo iste porro fuga praesentium, dolorum facilis placeat eveniet? Odio ratione eaque temporibus quidem quis culpa vitae vero, possimus dicta eius similique doloremque architecto exercitationem, maiores iusto provident sapiente rem atque? Laborum commodi officiis quis. dolor sit amet consectetur adipisicing elit. A assumenda nemo ipsum explicabo deserunt ratione cum enim rem! Similique omnis voluptatum officia fuga quia praesentium, saepe deleniti tenetur aperiam a.</div>
+            </p> </div></div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./images/couch3.jpg" class="d-block car w-100" style="height:900px;" alt="...">
+              <div class="new"><div class="box d-flex justify-content-center"> <p class="text">mpore vitaeiciis error itaque veritatis quis maiores mollitia, beatae corrupti ut libero ipsum dolorum esse. amet consectetur adipisicing elit. Repellat cumque aperiam eos libero, soluta harum illo. Impedit atque eveniet illum? Perspiciatis inventore illo porro ex eius impedit itaque dolorem. Dicta, voluptates harum optio numquam molestias voluptate velit consequuntur unde, libero natus aut similique officiis modi quo iste porro fuga praesentium, dolorum facilis placeat eveniet? Odio ratione eaque temporibus quidem quis culpa vitae vero, possimus dicta eius similique doloremque architecto exercitationem, maiores iusto provident sapiente rem atque? Laborum commodi officiis quis. dolor sit amet consectetur adipisicing elit. A assumenda nemo ipsum explicabo deserunt ratione cum enim rem! Similique omnis voluptatum officia fuga quia praesentium, saepe deleniti tenetur aperiam a.</div>
+              </div>
+             
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      
+      <!-- about -->
+      <h3>About us</h3>
+      <div class="container d-flex flex-wrap">
+      
+      <div><img src="./images/couch1.jpg" style="width: 500px;" class="p-5" alt=""></div>
+      
+      
+      <div class="p-5"><h2></h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, consequuntur itaque tempora pariatur necessitatibus, quia incidunt voluptates at ratione alias quam non est placeat quisquam molestiae ipsam distinctio sit cum! Aliquam, amet? Architecto, nam hic illum iusto rem quaerat quod.0 Lorem ipsum dolor sit amet consectetur adipisicing elit. At, quam! Praesentium mollitia odio ipsa voluptates maiores odit at molestias sit ipsum! Aut, reiciendis aliquam aperiam beatae quod illum. Consequatur officiis facere culpa vitae laborum neque! Nostrum facere recusandae sit accusamus, molestias deserunt voluptatum provident dignissimos, delectus quae totam, dolorum voluptas! Corporis, in!</p></div>
+      
+      </div>
+      </div>
+      
+      
+      
+      
+        <footer class="footer">
+          <d class="d-flex justify-content-around">
+            <div class=" w-80 p-5 d-flex">
+              <ul>
+                <li>Homy</li>
+                <li><span1 class="fa-sharp fa-regular fa-copyright"></span1>
+                  2023
+                  all rights reserved</li>
+                <li> <p>Designed & Developed by Roshini</p></li>
+              </ul>
+            </div>
+          
+        
+            <a  class=arrow href="#top" style="width:20px"><span class="fa-sharp fa-solid fa-angle-up"></span> back to top</a>
+          
+        </div>
+        </footer>
+  </body>
+</html>
